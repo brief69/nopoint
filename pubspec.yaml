@@ -1,0 +1,29 @@
+name: nopoint
+description: A new Flutter project that encapsulates all the technical aspects of app development using Flutter and Firebase, designed for developers to test and experiment with various features of app development.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.16.0
+  provider: ^6.1.1
+  flutter_riverpod: ^2.4.9
+  hooks_riverpod: ^2.4.9
+  flutter_hooks: ^0.20.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/DALL·E 2024-01-06 12.56.51 - A simple and elegant logo for a mobile app named 'nopoint'. The logo should feature the word 'nopoint' in bold black letters on a white background. Th.png
